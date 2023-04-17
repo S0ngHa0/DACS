@@ -24,6 +24,8 @@ namespace Web_Quang_ba_san_pham.Models
             : base("DefaultConnection", throwIfV1Schema: false)
         {
         }
+        
+
 
         public static ApplicationDbContext Create()
         {
