@@ -10,7 +10,7 @@
             <a class="nav-link" data-widget="pushmenu" href="#" role="button"><i class="fas fa-bars"></i></a>
         </li>
         <li class="nav-item d-none d-sm-inline-block">
-            <a href="~/Admin" class="nav-link">Home</a>
+            <a href="~/Admin" class="nav-link">Trang chủ</a>
         </li>
         <li class="nav-item d-none d-sm-inline-block">
             <a href="~/Admin/Category" class="nav-link">Danh mục</a>
@@ -26,7 +26,7 @@
             </div>
             <div class="col-sm-6">
                 <ol class="breadcrumb float-sm-right">
-                    <li class="breadcrumb-item"><a href="#">Home</a></li>
+                    <li class="breadcrumb-item"><a href="#">Trang chủ</a></li>
                     <li class="breadcrumb-item active">Danh mục</li>
                 </ol>
             </div>
@@ -43,24 +43,34 @@
             <h3 class="card-title">Danh sách</h3>
 
             <div class="card-tools">
-                <a href="~/Areas/Admin/Views/Category/Thêm" class="btn btn-primary">Thêm danh mục</a>
+                <a href="~/Admin/Category/add" class="btn btn-primary">Thêm danh mục</a>
             </div>
         </div>
         <div class="card-body">
             <table class="table table-hover">
                 <thead>
                     <tr>
-                        <th>Thứ tự</th>
+                        <th>STT</th>
                         <th>Tên danh mục</th>                        
                     </tr>
                 </thead>
                 <tbody>
-                    @if(Model != null && Model.Any())
+                    @if (Model != null && Model.Any())
                     {
-                        <tr>
-                            <th></th>
-                            <th></th>
-                        </tr>
+                        
+                        foreach (var item in Model)
+                        {
+                            <tr id="trow_@item.CategoryID">
+                                <th>@item.CategoryID</th>
+                                <th>@item.CategoryName</th>
+                                <td>
+                                    <a href="~/Admin/Category/edit/@item.CategoryID" class="btn btn-sm btn-primary">Sửa</a>
+                                    <a href="#" data-id="@item.CategoryID" class="btn btn-sm btn-primary btnDelete">Xóa</a>
+                                </td>
+                            </tr>
+                        }
+
+                        
                     }
                     else
                     {
@@ -83,3 +93,24 @@
 
 </section>
 <!-- /.content -->
+@section scripts{
+        <script>
+            $(document).ready(function() {
+                $('body').on('click', '.btnDelete', function () {
+                    var id = $(this).data("CategoryID");
+                    var conf = confirm('Xác nhận xóa?');
+                    if (conf === true) {
+                        $.ajax({
+                            url: '/Admin/Category/delete', type: 'POST', data: { id: id }, success: function (rs) {
+                                if (rs, success) {
+                                    $('#trow_' + id).remove();
+                                }
+                            }
+                        });
+                    }
+                    
+                });
+            });
+        </script>
+    
+}

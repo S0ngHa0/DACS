@@ -13,7 +13,7 @@ namespace Web_Quang_ba_san_pham.Migrations
         
         string IMigrationMetadata.Id
         {
-            get { return "202304171625392_InitialModel1"; }
+            get { return "202304171930120_InitialModel1"; }
         }
         
         string IMigrationMetadata.Source

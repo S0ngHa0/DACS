@@ -183,9 +183,9 @@
     <Compile Include="Migrations\202304021327260_InitialModel.designer.cs">
       <DependentUpon>202304021327260_InitialModel.cs</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\202304171625392_InitialModel1.cs" />
-    <Compile Include="Migrations\202304171625392_InitialModel1.designer.cs">
-      <DependentUpon>202304171625392_InitialModel1.cs</DependentUpon>
+    <Compile Include="Migrations\202304171930120_InitialModel1.cs" />
+    <Compile Include="Migrations\202304171930120_InitialModel1.designer.cs">
+      <DependentUpon>202304171930120_InitialModel1.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
@@ -2199,7 +2199,8 @@
     <Content Include="Areas\Admin\Views\Shared\_PT_Sidebar.cshtml" />
     <Content Include="Areas\Admin\Views\Category\Index.cshtml" />
     <Content Include="Content\NewFolder1\IMG\Admin.jpg" />
-    <Content Include="Areas\Admin\Views\Category\Thêm.cshtml" />
+    <Content Include="Areas\Admin\Views\Category\add.cshtml" />
+    <Content Include="Areas\Admin\Views\Category\edit.cshtml" />
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
     <Content Include="Scripts\jquery-3.4.1.js" />
     <Content Include="Scripts\jquery-3.4.1.min.js" />
@@ -2267,8 +2268,8 @@
     <EmbeddedResource Include="Migrations\202304021327260_InitialModel.resx">
       <DependentUpon>202304021327260_InitialModel.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202304171625392_InitialModel1.resx">
-      <DependentUpon>202304171625392_InitialModel1.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\202304171930120_InitialModel1.resx">
+      <DependentUpon>202304171930120_InitialModel1.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
