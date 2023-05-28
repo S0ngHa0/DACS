@@ -5,6 +5,7 @@ namespace Web_Quan_Ba_San_Pham.Models.Models1
     using System.ComponentModel.DataAnnotations;
     using System.ComponentModel.DataAnnotations.Schema;
     using System.Data.Entity.Spatial;
+    using System.Web.Mvc;
 
     public partial class tb_Tintuc
     {
@@ -17,6 +18,7 @@ namespace Web_Quan_Ba_San_Pham.Models.Models1
         public string Mota { get; set; }
 
         public string Chitiet { get; set; }
+        [AllowHtml]
 
         public string Hinhanh { get; set; }
 

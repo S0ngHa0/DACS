@@ -108,3 +108,6 @@ D:\web\DACS\Web-Quan-Ba-San-Pham\Web-Quan-Ba-San-Pham\obj\Debug\Web-Quan-Ba-San-
 D:\web\DACS\Web-Quan-Ba-San-Pham\Web-Quan-Ba-San-Pham\obj\Debug\Web-Quan-Ba-San-Pham.pdb
 D:\web\DACS\Web-Quan-Ba-San-Pham\Web-Quan-Ba-San-Pham\obj\Debug\Web_Quan_Ba_San_Pham.Migrations.initialModel.resources
 D:\web\DACS\Web-Quan-Ba-San-Pham\Web-Quan-Ba-San-Pham\obj\Debug\Web-Quan-Ba-San-Pham.csproj.GenerateResource.cache
+D:\web\DACS\Web-Quan-Ba-San-Pham\Web-Quan-Ba-San-Pham\bin\CKFinder.dll
+D:\web\DACS\Web-Quan-Ba-San-Pham\Web-Quan-Ba-San-Pham\bin\CKFinder.pdb
+D:\web\DACS\Web-Quan-Ba-San-Pham\Web-Quan-Ba-San-Pham\obj\Debug\Web_Quan_Ba_San_Pham.Migrations.updatedata.resources

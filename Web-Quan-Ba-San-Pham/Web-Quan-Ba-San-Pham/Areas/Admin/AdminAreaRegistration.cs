@@ -17,7 +17,8 @@ namespace Web_Quan_Ba_San_Pham.Areas.Admin
             context.MapRoute(
                 "Admin_default",
                 "Admin/{controller}/{action}/{id}",
-                new { action = "Index", id = UrlParameter.Optional }
+                new { action = "Index", id = UrlParameter.Optional },
+                namespaces: new[] { "Web_Quan_Ba_San_Pham.Areas.Admin.Controllers" }
             );
         }
     }
