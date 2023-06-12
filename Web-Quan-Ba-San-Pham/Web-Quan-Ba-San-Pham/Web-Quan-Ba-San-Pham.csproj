@@ -228,6 +228,18 @@
     <Compile Include="Startup.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Content\assets\images\Anh\coca-cola-logo.svg" />
+    <Content Include="Content\assets\images\Anh\coke-cola-logo-on-footer.png" />
+    <Content Include="Content\assets\images\Anh\coke-store-logo-PLPs.png" />
+    <Content Include="Content\assets\images\Anh\CokeStore_Img.jpg" />
+    <Content Include="Content\assets\images\Anh\download.png" />
+    <Content Include="Content\assets\images\Anh\download1.png" />
+    <Content Include="Content\assets\images\Anh\download2.png" />
+    <Content Include="Content\assets\images\Anh\download4.png" />
+    <Content Include="Content\assets\images\Anh\images %281%29.jfif" />
+    <Content Include="Content\assets\images\Anh\images %282%29.jfif" />
+    <Content Include="Content\assets\images\Anh\images.jfif" />
+    <Content Include="Content\assets\images\Anh\plp-cokeproductshero.png" />
     <Content Include="Content\bootstrap-theme.css" />
     <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
