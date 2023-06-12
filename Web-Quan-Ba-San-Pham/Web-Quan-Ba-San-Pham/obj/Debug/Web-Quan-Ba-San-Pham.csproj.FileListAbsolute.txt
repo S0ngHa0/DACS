@@ -111,3 +111,8 @@ D:\web\DACS\Web-Quan-Ba-San-Pham\Web-Quan-Ba-San-Pham\obj\Debug\Web-Quan-Ba-San-
 D:\web\DACS\Web-Quan-Ba-San-Pham\Web-Quan-Ba-San-Pham\bin\CKFinder.dll
 D:\web\DACS\Web-Quan-Ba-San-Pham\Web-Quan-Ba-San-Pham\bin\CKFinder.pdb
 D:\web\DACS\Web-Quan-Ba-San-Pham\Web-Quan-Ba-San-Pham\obj\Debug\Web_Quan_Ba_San_Pham.Migrations.updatedata.resources
+D:\web\DACS\Web-Quan-Ba-San-Pham\Web-Quan-Ba-San-Pham\obj\Debug\Web_Quan_Ba_San_Pham.Migrations.Updatedt.resources
+D:\web\DACS\Web-Quan-Ba-San-Pham\Web-Quan-Ba-San-Pham\bin\PagedList.dll
+D:\web\DACS\Web-Quan-Ba-San-Pham\Web-Quan-Ba-San-Pham\bin\PagedList.Mvc.dll
+D:\web\DACS\Web-Quan-Ba-San-Pham\Web-Quan-Ba-San-Pham\bin\PagedList.xml
+D:\web\DACS\Web-Quan-Ba-San-Pham\Web-Quan-Ba-San-Pham\bin\PagedList.Mvc.xml
