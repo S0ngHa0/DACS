@@ -190,6 +190,7 @@
     <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
+    <Compile Include="Controllers\SanPhamController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -232,6 +233,7 @@
     <Content Include="Content\assets\images\Anh\coke-cola-logo-on-footer.png" />
     <Content Include="Content\assets\images\Anh\coke-store-logo-PLPs.png" />
     <Content Include="Content\assets\images\Anh\CokeStore_Img.jpg" />
+    <Content Include="Content\assets\images\Anh\Coke_Custom_Bottles.png" />
     <Content Include="Content\assets\images\Anh\download.png" />
     <Content Include="Content\assets\images\Anh\download1.png" />
     <Content Include="Content\assets\images\Anh\download2.png" />
@@ -3435,6 +3437,8 @@
     <Content Include="Views\Manage\VerifyPhoneNumber.cshtml" />
     <Content Include="Views\Shared\Lockout.cshtml" />
     <Content Include="Views\Shared\_LoginPartial.cshtml" />
+    <Content Include="Views\SanPham\Partial_ItemsByCateId.cshtml" />
+    <Content Include="Views\SanPham\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
