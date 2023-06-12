@@ -70,9 +70,10 @@
                         <th>Loại sản phẩm</th>
                         <th>Giá</th>
                         <th>Mô tả</th>
+                        <th>Home</th>
                         <th>Trạng thái</th>
                         <th>Ngày tạo</th>
-                        <th></th>
+
                     </tr>
                 </thead>
                 <tbody>
@@ -82,6 +83,7 @@
                         foreach (var item in Model)
                         {
                             var strCheck = item.Trangthai ? "<i class='fa fa-check text-success'></i>" : "<i class='fas fa-times text-danger'></i>";
+                            var strCheckHome = item.Sp ? "<i class='fa fa-check text-success'></i>" : "<i class='fas fa-times text-danger'></i>";
                             <tr id="trow_@item.Id">
                                 <td>@i</td>
                                 <td>@item.Tieude</td>
@@ -90,6 +92,9 @@
                                 <td>@item.LoaiSp.Tenloai</td>
                                 <td>@item.Gia</td>
                                 <td>@item.Mota</td>
+                                <td class="text-center">
+                                    <a href='#' data-id="@item.Id" class="btnHome">@Html.Raw(strCheckHome)</a>
+                                </td>
                                 <td class="text-center">
                                     <a href='#' data-id="@item.Id" class="btnActive">@Html.Raw(strCheck)</a>
                                 </td>

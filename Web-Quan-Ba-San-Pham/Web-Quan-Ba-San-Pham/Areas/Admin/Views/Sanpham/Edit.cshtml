@@ -140,6 +140,14 @@
                                     </div>
                                 </div>
                             </div>
+                            <div class="col-3">
+                                <div class="form-group">
+                                    <div class="custom-control custom-checkbox">
+                                        @Html.CheckBoxFor(x => x.Sp, new { @class = "custom-control-input", @id = "IsSpCheckbox" })
+                                        <label for="IsSpCheckbox" class="custom-control-label">Home</label>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                         <div class="form-group">
                             <a href="/admin/Sanpham" class="btn btn-danger">Quay lại</a>

@@ -190,6 +190,7 @@
     <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
+    <Compile Include="Controllers\SanPhamController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -228,6 +229,19 @@
     <Compile Include="Startup.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Content\assets\images\Anh\coca-cola-logo.svg" />
+    <Content Include="Content\assets\images\Anh\coke-cola-logo-on-footer.png" />
+    <Content Include="Content\assets\images\Anh\coke-store-logo-PLPs.png" />
+    <Content Include="Content\assets\images\Anh\CokeStore_Img.jpg" />
+    <Content Include="Content\assets\images\Anh\Coke_Custom_Bottles.png" />
+    <Content Include="Content\assets\images\Anh\download.png" />
+    <Content Include="Content\assets\images\Anh\download1.png" />
+    <Content Include="Content\assets\images\Anh\download2.png" />
+    <Content Include="Content\assets\images\Anh\download4.png" />
+    <Content Include="Content\assets\images\Anh\images %281%29.jfif" />
+    <Content Include="Content\assets\images\Anh\images %282%29.jfif" />
+    <Content Include="Content\assets\images\Anh\images.jfif" />
+    <Content Include="Content\assets\images\Anh\plp-cokeproductshero.png" />
     <Content Include="Content\bootstrap-theme.css" />
     <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
@@ -3423,6 +3437,8 @@
     <Content Include="Views\Manage\VerifyPhoneNumber.cshtml" />
     <Content Include="Views\Shared\Lockout.cshtml" />
     <Content Include="Views\Shared\_LoginPartial.cshtml" />
+    <Content Include="Views\SanPham\Partial_ItemsByCateId.cshtml" />
+    <Content Include="Views\SanPham\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
