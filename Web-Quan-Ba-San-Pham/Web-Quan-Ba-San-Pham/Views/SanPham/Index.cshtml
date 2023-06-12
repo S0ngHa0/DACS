@@ -12,8 +12,8 @@
 
             <div class="breadcrumbs d-flex flex-row align-items-center">
                 <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li class="active"><a href="/"><i class="fa fa-angle-right" aria-hidden="true"></i>Men's</a></li>
+                    <li><a href="/Home/index">Home</a></li>
+                    <li class="active"><a href="/Sanpham/index"><i class="fa fa-angle-right" aria-hidden="true"></i>Sản phẩm</a></li>
                 </ul>
             </div>
 
@@ -22,13 +22,13 @@
             <div class="sidebar">
                 <div class="sidebar_section">
                     <div class="sidebar_title">
-                        <h5>Product Category</h5>
+                        <h5>Danh mục sản phẩm</h5>
                     </div>
                     @*@Html.Action("MenuLeft", "Menu")*@
                 </div>
 
                 <!-- Price Range Filtering -->
-                <div class="sidebar_section">
+                <!--<div class="sidebar_section">
                     <div class="sidebar_title">
                         <h5>Filter by Price</h5>
                     </div>
@@ -38,9 +38,9 @@
                     <div id="slider-range"></div>
                     <div class="filter_button"><span>filter</span></div>
 
-                    <hr />
+                    <hr />-->
                     @*@Html.Action("Refresh", "Home")*@
-                </div>
+                <!--</div>-->
 
                 <!-- Sizes -->
                 @*<div class="sidebar_section">
@@ -100,8 +100,8 @@
                                         <i class="fa fa-angle-down"></i>
                                         <ul class="sorting_type">
                                             <li class="type_sorting_btn" data-isotope-option='{ "sortBy": "original-order" }'><span>Default Sorting</span></li>
-                                            <li class="type_sorting_btn" data-isotope-option='{ "sortBy": "price" }'><span>Price</span></li>
-                                            <li class="type_sorting_btn" data-isotope-option='{ "sortBy": "name" }'><span>Product Name</span></li>
+                                            <li class="type_sorting_btn" data-isotope-option='{ "sortBy": "price" }'><span>Giá</span></li>
+                                            <li class="type_sorting_btn" data-isotope-option='{ "sortBy": "name" }'><span>Tên sản phẩm</span></li>
                                         </ul>
                                     </li>
                                     <li>
@@ -139,13 +139,10 @@
                                 {
                                     foreach (var item in Model)
                                     {
-                                        var strImge = "";
-                                        var img = item.Hinhanh;
-
                                         <div class="product-item @item.LoaiSp">
                                             <div class="product discount product_filter">
                                                 <div class="product_image">
-                                                    <img src="@strImge" alt="@item.Tieude">
+                                                    <img src="@item.Hinhanh">
                                                 </div>
                                                 <div class="favorite favorite_left"></div>
                                                 @if (item.Giamgia > 0)
@@ -167,7 +164,7 @@
                                                     }
                                                 </div>
                                             </div>
-                                            <div class="red_button add_to_cart_button"><a href="#" class="btnAddToCart" data-id="@item.Id">add to cart</a></div>
+                                            <div class="red_button add_to_cart_button"><a href="#" class="btnAddToCart" data-id="@item.Id">Thêm vào giỏ hàng</a></div>
                                         </div>
                                     }
                                 }

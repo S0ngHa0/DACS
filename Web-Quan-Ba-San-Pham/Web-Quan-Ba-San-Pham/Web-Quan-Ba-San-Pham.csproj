@@ -188,6 +188,7 @@
     <Compile Include="Areas\Admin\Controllers\TheloaiController.cs" />
     <Compile Include="Areas\Admin\Controllers\TintucController.cs" />
     <Compile Include="Controllers\AccountController.cs" />
+    <Compile Include="Controllers\CartController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
     <Compile Include="Controllers\SanPhamController.cs" />
@@ -210,6 +211,7 @@
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
+    <Compile Include="Models\Models1\Cart.cs" />
     <Compile Include="Models\Models1\LoaiSp.cs" />
     <Compile Include="Models\Models1\Model1.cs" />
     <Compile Include="Models\Models1\sysdiagram.cs" />
@@ -3402,6 +3404,7 @@
     <Content Include="Scripts\jquery.validate.min.js" />
     <Content Include="Scripts\jquery.validate.unobtrusive.js" />
     <Content Include="Scripts\jquery.validate.unobtrusive.min.js" />
+    <Content Include="Scripts\jsShopping.js" />
     <Content Include="Scripts\modernizr-2.8.3.js" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
@@ -3439,6 +3442,8 @@
     <Content Include="Views\Shared\_LoginPartial.cshtml" />
     <Content Include="Views\SanPham\Partial_ItemsByCateId.cshtml" />
     <Content Include="Views\SanPham\Index.cshtml" />
+    <Content Include="Views\Cart\Index.cshtml" />
+    <Content Include="Views\Cart\Partial_Item_Cart.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
