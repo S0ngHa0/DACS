@@ -59,7 +59,7 @@ namespace Web_Quan_Ba_San_Pham.Controllers
                 item.Tongtien = item.Soluong * item.Gia;
                 cart.AddToCart(item, soluong);
                 Session["Cart"] = cart;
-                code = new { Success = true, msg = "Thêm sản phẩm vào giở hàng thành công!", code = 1, Count = cart.Items.Count };
+                code = new { Success = true, msg = "Thêm sản phẩm thành công!", code = 1, Count = cart.Items.Count };
             }
             return Json(code);
         }
